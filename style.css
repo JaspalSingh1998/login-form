@@ -14,14 +14,87 @@ body {
 .card__hero {
   background-color: #013243;
   text-align: center;
+  padding-top: 3rem;
 }
 .card__title {
   font-size: 2.5rem;
   font-weight: bold;
   color: #fff;
+  margin-bottom: 0.5rem;
 }
 .card__description {
+  color: #86bfd3;
+  font-size: 1.2rem;
 }
 .card__image {
   width: 100%;
+}
+.card__content {
+  padding: 3rem 4rem;
+}
+.type {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+form {
+  font-family: inherit;
+}
+label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+input {
+  padding: 1rem;
+  width: 100%;
+  color: #8d8d8d;
+  font-size: 1.2rem;
+  border: 1px solid #bcbcbc;
+  border-radius: 5px;
+  outline: none;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.terms {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+span {
+  font-weight: bold;
+  color: #013243;
+  text-decoration: underline;
+}
+button {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-weight: bold;
+  background-color: #013243;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-image: url("./Assets/Background.png");
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+  }
+  .card {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
 }
