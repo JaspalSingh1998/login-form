@@ -83,6 +83,7 @@ button {
 @media screen and (min-width: 800px) {
   body {
     background-image: url("./Assets/Background.png");
+    background-size: cover;
     display: grid;
     place-content: center;
     min-height: 100vh;
